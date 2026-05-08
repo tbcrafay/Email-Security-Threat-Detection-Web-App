@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables
+backend/.env
+.env
+
+# Python caching
+**/__pycache__/
+*.pyc
+
+# Local Model Files (If they are too large for Git)
+backend/saved_models/*.h5
+backend/saved_models/*.pt
+backend/saved_models/transformer_semantic/
+
+# OS files
+.DS_Store
+Thumbs.db
